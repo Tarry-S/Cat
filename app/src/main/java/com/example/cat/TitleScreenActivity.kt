@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import com.example.cat.databinding.ActivityCatDetailsBinding
-import com.example.cat.databinding.ActivityHellBinding
 import com.example.cat.databinding.ActivityTitleScreenBinding
 import com.squareup.picasso.Picasso
 import retrofit2.Call
@@ -30,10 +29,5 @@ class TitleScreenActivity : AppCompatActivity() {
             startActivity(nyaIntent)
         }
 
-
-        binding.buttonMainViewHell.setOnClickListener {
-            val hellIntent = Intent(this, HellActivity::class.java)
-            startActivity(hellIntent)
-        }
     }
 }

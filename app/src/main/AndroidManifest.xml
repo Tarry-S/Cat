@@ -12,9 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cat">
         <activity
-            android:name=".HellActivity"
-            android:exported="true"/>
-        <activity
             android:name=".CatDetailsActivity"
             android:exported="true"/>
         <activity
